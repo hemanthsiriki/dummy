@@ -9,7 +9,7 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments="-DMOVIE_APP_URL=http://10.22
 By default the application runs on localhost:8081
 
 ###Swagger
-```aidl
+```
 http://localhost:8081/swagger-ui.html
 ```
 
