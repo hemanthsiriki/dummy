@@ -1,0 +1,38 @@
+
+spring:
+  application:
+    name: movie-app-ui
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+movie:
+  url: ${MOVIE_APP_URL}
+
+logging:
+  level:
+    root: info
+
+server:
+  port: 8081
+
+management:
+  endpoint:
+    health:
+      show-details: always
+    info:
+      enabled: true
+    beans:
+      enabled: true
+    metrics:
+      enabled: true
+  info:
+    build:
+      enabled: true
+    defaults:
+      enabled: true
+  endpoints:
+    enabled-by-default: true
+
+
+
+
